@@ -131,7 +131,7 @@ tape( 'the function returns `false` if provided a value whose prototype has a co
 	Foo.prototype.constructor = Foo;
 
 	isPlainObject = proxyquire( './../lib/main.js', {
-		'@stdlib/utils/native-class': nativeClass
+		'@stdlib/utils-native-class': nativeClass
 	});
 	t.equal( isPlainObject( new Foo() ), false, 'returns false' );
 	t.end();
