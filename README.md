@@ -100,7 +100,7 @@ bool = isPlainObject( null );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/assert/is-object`][@stdlib/assert/is-object]</span><span class="delimiter">: </span><span class="description">test if a value is an object.</span>
+-   <span class="package-name">[`@stdlib/assert-is-object`][@stdlib/assert/is-object]</span><span class="delimiter">: </span><span class="description">test if a value is an object.</span>
 
 </section>
 
