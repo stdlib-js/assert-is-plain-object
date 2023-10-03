@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-plain-object",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Test if a value is a plain object.",
   "license": "Apache-2.0",
   "author": {
@@ -37,17 +37,17 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-own-property": "^0.1.0",
-    "@stdlib/assert-is-function": "^0.1.0",
-    "@stdlib/assert-is-object": "^0.1.0",
-    "@stdlib/utils-get-prototype-of": "^0.1.0",
-    "@stdlib/utils-native-class": "^0.1.0"
+    "@stdlib/assert-has-own-property": "^0.1.1",
+    "@stdlib/assert-is-function": "^0.1.1",
+    "@stdlib/assert-is-object": "^0.1.1",
+    "@stdlib/utils-get-prototype-of": "^0.1.1",
+    "@stdlib/utils-native-class": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.1.0",
     "@stdlib/bench": "^0.1.0",
-    "@stdlib/function-ctor": "^0.1.0",
-    "@stdlib/object-ctor": "^0.1.0",
+    "@stdlib/function-ctor": "^0.1.1",
+    "@stdlib/object-ctor": "^0.1.1",
     "@stdlib/utils-define-property": "^0.1.0",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
