@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isPlainObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-plain-object@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-plain-object/tags). For example,
+
+```javascript
 import isPlainObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-plain-object@v0.2.0-deno/mod.js';
 ```
 
@@ -68,7 +73,7 @@ bool = isPlainObject( null );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isPlainObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-plain-object@v0.2.0-deno/mod.js';
+import isPlainObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-plain-object@deno/mod.js';
 
 var bool = isPlainObject( {} );
 // returns true
