@@ -37,14 +37,14 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-own-property": "^0.2.1",
-    "@stdlib/assert-is-function": "^0.2.1",
-    "@stdlib/assert-is-object": "^0.2.1",
-    "@stdlib/utils-get-prototype-of": "^0.2.1",
-    "@stdlib/utils-native-class": "^0.2.1"
+    "@stdlib/assert-has-own-property": "^0.2.2",
+    "@stdlib/assert-is-function": "^0.2.2",
+    "@stdlib/assert-is-object": "^0.2.2",
+    "@stdlib/utils-get-prototype-of": "^0.2.2",
+    "@stdlib/utils-native-class": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/assert-is-boolean": "^0.2.1",
+    "@stdlib/assert-is-boolean": "^0.2.2",
     "@stdlib/function-ctor": "^0.2.2",
     "@stdlib/object-ctor": "^0.2.1",
     "@stdlib/utils-define-property": "^0.2.4",
@@ -52,7 +52,7 @@
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.1"
+    "@stdlib/bench-harness": "^0.2.2"
   },
   "engines": {
     "node": ">=0.10.0",
