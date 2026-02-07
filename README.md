@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isPlainObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-plain-object@deno/mod.js';
+import isPlainObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-plain-object@v0.2.3-deno/mod.js';
 ```
 
 #### isPlainObject( value )
@@ -68,7 +68,7 @@ bool = isPlainObject( null );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isPlainObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-plain-object@deno/mod.js';
+import isPlainObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-plain-object@v0.2.3-deno/mod.js';
 
 var bool = isPlainObject( {} );
 // returns true
